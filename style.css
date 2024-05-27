@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+
+body {
+  background-color: #eceddc;
+  font-family: "Maven Pro";
+  font-size: 400;
+  line-height: 1.5;
+  align-content: center;
+}
+h1 {
+  color: #8E3E63;
+  font-family: "Maven Pro";
+  font-size: x-large;
+  line-height: 1;
+}
+h2,h3 {
+  color: #8E3E63;
+  font-family: "Maven Pro";
+  font-size: medium;
+  line-height: 1;
+}
+a {
+  color: black;
+  font-family: "Maven Pro", sans-serif;
+  text-decoration: none;
+  font-size: small;
+}
+a:hover {
+  color: rgb(95, 51, 97);
+  text-decoration: wavy;
+}
+.btn {
+  font-size: small;
+  color: white;
+  background-color: #98cf68;
+  border-radius: 4px;
+  padding: 7px
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+#prof {
+  width: 100px;
+  border-radius: 50%;
+}
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+.card-white {
+  background-color: white;
+  padding: 40px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 20px 0;
+  text-align: center;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+.green {
+  color: #98cf68;
+}
+.green:hover {
+  color: black;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
